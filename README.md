@@ -27,7 +27,7 @@ proyecto-datos-hospital/
 │   ├── 02_analisis_profundo.py
 │   ├── 03_limpieza_avanzada.py
 │   ├── 04_validacion_final.py
-│   ├── dashboard_interactivo_final.py
+│   ├─  05_dashboard_profesional.py
 │   ├── 06_tests_automatizados.py
 │   └── 07_simulacion_datawarehouse.py
 ├── resultados/              # Datos procesados
@@ -72,7 +72,7 @@ python3 03_limpieza_avanzada.py
 python3 04_validacion_final.py
 
 # 5. Dashboard interactivo
-python3 dashboard_interactivo_final.py
+python3 dashboard_profesional.py
 
 # 6. Tests automáticos
 python3 06_tests_automatizados.py
@@ -239,4 +239,5 @@ Proyecto desarrollado para fines académicos y/o demostración de capacidades t�
 ---
 
 *Desarrollado con Python para demostración de capacidades en Ingeniería de Datos*
+
 
