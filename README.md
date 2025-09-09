@@ -208,7 +208,7 @@ python3 06_tests_automatizados.py
 
 ## Uso del Dashboard
 
-1. Ejecutar: `python3 dashboard_interactivo_final.py`
+1. Ejecutar: `python3 dashboard_profesional.py`
 2. Abrir: `reportes/dashboard_interactivo.html`
 3. Navegar por las visualizaciones interactivas
 4. Analizar KPIs y métricas de calidad
@@ -239,3 +239,4 @@ Proyecto desarrollado para fines académicos y/o demostración de capacidades t�
 ---
 
 *Desarrollado con Python para demostración de capacidades en Ingeniería de Datos*
+
