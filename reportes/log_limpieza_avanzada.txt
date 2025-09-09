@@ -1,0 +1,20 @@
+LOG DE LIMPIEZA AVANZADA
+==================================================
+
+ACCIONES REALIZADAS:
+08:21:48 - Sexo estandarizado: Male/Female convertido a M/F
+08:21:50 - Fechas de nacimiento procesadas: Válidas: 5010 -> 5010
+08:21:51 - Edades procesadas: Discrepancias corregidas: 1612, Completadas: 1647
+08:21:53 - Fechas de citas corregidas: Antes: 6683, Después: 6683, Inválidas detectadas: 3314
+08:21:54 - Estados completados: Faltantes: 2542 -> 0
+08:21:55 - Integridad referencial restaurada: Citas huérfanas removidas: 190
+
+SUPUESTOS ADOPTADOS:
+- Valores null en sexo se mantienen para decisión de negocio posterior
+- Fechas con día 33 se corrigieron a día 03
+- Fechas en español se convirtieron a formato ISO
+- En discrepancias >2 años, se priorizó edad calculada desde fecha nacimiento
+- Meses >12 se corrigieron restando 12 (ej: mes 13 -> mes 1)
+- Fechas no corregibles se marcaron como null
+- Estados inferidos: fecha+costo=Completada, sin fecha=Cancelada, otros=Reprogramada
+- Citas sin paciente válido fueron eliminadas para mantener integridad

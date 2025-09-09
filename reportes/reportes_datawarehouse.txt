@@ -1,0 +1,36 @@
+REPORTES GENERADOS DESDE DATA WAREHOUSE
+==================================================
+
+1. ANÁLISIS POR ESPECIALIDAD:
+nombre_especialidad  total_citas  costo_promedio  ingresos_totales
+         Neurología         1653      164.508929          221100.0
+        Ginecología         1651      164.484761          226660.0
+          Ortopedia         1632      162.151335          218580.0
+        Cardiología         1607      163.252033          220880.0
+          Pediatría         1603      164.274924          217500.0
+
+2. PRODUCTIVIDAD POR MÉDICO:
+    nombre_medico  total_citas  citas_completadas  tasa_completamiento
+ Dra. Lina Torres         2033                769                37.83
+Dr. Andrés Murcia         1966                754                38.35
+ Dr. Camilo Rojas         1902                724                38.07
+  Dr. Juan Valdez         1892                706                37.32
+
+3. ANÁLISIS TEMPORAL:
+ año  trimestre  total_citas  costo_promedio
+2022          1          210      164.337349
+2022          2          220      156.402116
+2022          3          202      161.104294
+2022          4          212      164.023669
+2023          1         1431      164.602510
+2023          2         1403      165.078261
+2023          3         1030      164.023529
+2023          4          212      169.759036
+2024          1          200      162.634731
+2024          2          199      161.104294
+2024          3          171      164.477612
+2024          4          206      168.095238
+2025          1          213      163.260870
+2025          2          219      165.536723
+2025          3          215      166.086957
+2025          4          217      164.315789

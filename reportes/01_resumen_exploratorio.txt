@@ -1,0 +1,14 @@
+
+RESUMEN DEL ANÁLISIS EXPLORATORIO
+
+DATOS CARGADOS:
+- Pacientes: 5,010 registros
+- Citas: 9,961 registros
+
+PROBLEMAS IDENTIFICADOS:
+- Valores de sexo inconsistentes: 2021 casos
+- Fechas de nacimiento en formato español: 3 casos
+- Fechas de citas inválidas: 3314 casos
+- Estados de cita faltantes: 2542 casos
+
+SIGUIENTE PASO: Ejecutar script de limpieza de datos

@@ -1,0 +1,32 @@
+
+REPORTE DE TESTS AUTOMÁTICOS
+============================
+
+Fecha: 2025-09-09 09:07:46
+Total de tests: 12
+Tests pasados: 11
+Tasa de éxito: 91.7%
+
+RESULTADOS DETALLADOS:
+
+Integridad Estructural: PASS
+Unicidad de IDs: FAIL - IDs de pacientes duplicados
+Integridad Referencial: PASS
+Valores de Sexo: PASS
+Rangos de Edad: PASS
+Estados de Cita: PASS
+Fechas de Nacimiento: PASS
+Fechas de Citas: PASS
+Costos Válidos: PASS
+Consistencia Edad-Fecha: PASS
+Formato de Emails: PASS
+Volúmenes Esperados: PASS
+
+CONCLUSIONES:
+Algunos tests fallaron. Revisar problemas identificados antes de usar en producción.
+
+RECOMENDACIONES:
+- Ejecutar estos tests automáticamente antes de cada deploy
+- Configurar alertas para fallos de tests
+- Documentar cualquier excepción justificada
+- Actualizar tests cuando cambien los requisitos de negocio
