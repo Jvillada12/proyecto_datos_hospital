@@ -101,7 +101,7 @@ python3 03_limpieza_avanzada.py
 
 #### Dashboard Interactivo
 ```bash
-python3 dashboard_interactivo_final.py
+python3 05_dashboard_profesional.py
 ```
 - Visualizaciones profesionales
 - KPIs de calidad en tiempo real
@@ -239,6 +239,7 @@ Proyecto desarrollado para fines académicos y/o demostración de capacidades t�
 ---
 
 *Desarrollado con Python para demostración de capacidades en Ingeniería de Datos*
+
 
 
 
